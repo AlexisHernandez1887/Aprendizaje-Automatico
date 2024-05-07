@@ -3,5 +3,5 @@
 
 ## Aprendizaje Automático
 
-##Tareas
--Tarea 1
+## Tareas
+- [Tarea 1](Tarea1.ipynb)
