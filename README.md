@@ -4,4 +4,5 @@
 ## Aprendizaje Automático
 
 ## Tareas
+- [Tarea Datos y Objetivo](Datos_Objetivo.ipynb)
 - [Tarea 1](Tarea1.ipynb)
