@@ -6,3 +6,4 @@
 ## Tareas
 - [Tarea Datos y Objetivo](Datos_Objetivo.ipynb)
 - [Tarea 1](Tarea1.ipynb)
+- [Tarea datos y estadisticos](Tarea_2.ipynb)
