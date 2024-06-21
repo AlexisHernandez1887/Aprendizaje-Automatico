@@ -1,0 +1,72 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{authblk}
+\usepackage[spanish]{babel}
+\usepackage{setspace}
+\usepackage[margin=1.25in]{geometry}
+\usepackage{graphicx}
+\graphicspath{ {./figures/} }
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{lineno}
+\linenumbers
+
+%%%%%% Bibliography %%%%%%
+% Replace "sample" in the \addbibresource line below with the name of your .bib file.
+\usepackage[style=nejm, 
+citestyle=numeric-comp,
+sorting=none]{biblatex}
+\addbibresource{sample.bib}
+
+%%%%%% Title %%%%%%
+\title{Progresión de la Diabetes}
+
+%%%%%% Authors %%%%%%
+\author{Alexis Hernández Morales}
+
+%%%%%% Affiliations %%%%%%
+\affil{Facultad de Ciencias Físico Matemáticas, Universidad Autónoma de Nuevo León, San Nicolás de los Garza, México.}
+
+%%%%%% Date %%%%%%
+% Date is optional
+\date{}
+
+%%%%%% Spacing %%%%%%
+% Use paragraph spacing of 1.5 or 2 (for double spacing, use command \doublespacing)
+\onehalfspacing
+
+\begin{document}
+
+\maketitle
+
+\section{Introducción}
+La diabetes es una enfermedad crónica que afecta directamente el páncreas y causando que el cuerpo sea incapaz de producir insulina. La insulina es la principal responsable de mantener el nivel de glucosa en la sangre. La variedad de factores como la obesidad, sedentarismo, alta presión en la sangre, pueden causar afectaciones en las personas que padecen diabetes. Puede dañar la piel, los ojos y en casos mas graves daño renal.
+
+Definir de pronta manera tratamientos precisos y efectivos puede ser retador para profesionales en la medicina. Métodos de aprendizaje automático pueden proveer información valiosa facilitando la asignación del tratamiento y los factores con mayor peso a considerar, reduciendo la carga de trabajo verificando otros factores que tal vez no tengan tanto impacto.
+
+\section{Resultados}
+Al utilizar el método de K-medias para la agrupación de los datos y el índice de Davies-Bouldin para definir la cantidad óptima de grupos se puede apreciar una división entre los datos. En la figura 1 vemos como existen tres clasificaciones con respecto al Índice de Masa Corporal y el Objetivo que nos marca el bienestar del paciente.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=6cm]{K-medias cluster}
+\caption{K-medias Agrupación}
+\label{fig:cluster}
+\end{figure}
+
+Demuestra ser muy efectiva la agrupación de los datos utilizando el método de K-medias, creando una visualización clara para la partición de los datos.
+
+
+\section{Conclusión}
+ Utilizando la base de datos Diabetes de Sklearn que contiene variables referentes a pacientes que padecen diabetes con información médica y sobre su bienestar, y el método de clasificación de K-medias para crear una partición en los datos se realizo esta investigación, dando resultados muy interesantes.
+
+El método de clasificación de K-medias mostró ser una gran herramienta para el agrupamiento de los datos mencionados, creando una división visual sencilla de apreciar y utilizar para mayores investigaciones. Los resultados presentados pueden llegar a ser de utilidad en ámbitos de salud enseñando un indicio de como se ve afectado el bienestar de un paciente dada una condición del mismo y de esta forma predecir lo que se debe atender o poner atención principalmente en los pacientes de diabetes. 
+
+\section*{Bibliografía}
+Shukla AK (2020) Patient diabetes forecasting based on machine learning approach. In: Pant M, Sharma TK, Arya R, Sahana BC, Zolfagharinia H (eds) Soft computing: theories and applications. Advances in intelligent systems and computing, vol 1154. Springer, Singapore.
+
+
+
+
+
+\end{document}
