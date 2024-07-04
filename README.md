@@ -11,3 +11,4 @@
 - [Tarea 5 Código](Tarea5/Tarea_5.ipynb)
 - [Tarea 5 Latex](Tarea5/Tarea_5.tex)
 - [Tarea 5 PDF](Tarea5/Tarea_5.pdf)
+- [Tarea 6 Código](Tarea_6.ipynb)
