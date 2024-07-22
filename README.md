@@ -12,3 +12,5 @@
 - [Tarea 5 Latex](Tarea5/Tarea_5.tex)
 - [Tarea 5 PDF](Tarea5/Tarea_5.pdf)
 - [Tarea 6 Código](Tarea_6.ipynb)
+- [PIA PDF](PIA.pdf)
+- [PIA Latex](PIA.tex)
